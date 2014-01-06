@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>project-1</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link href="css/general.css" rel="stylesheet">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+	
+	<nav class="navtop">	
+		<ul>
+		<li><a href="about.html">About</a></li>
+		<li><a href="nutrition.html">Nutrition</a></li>
+		<li><a href="fitness.html">Fitness</a></li>
+		<li><a href="recipes.html">Recipes</a></li>
+		</ul>
+		</nav>
+		
+	<h2>Fitness</h2>
+				
+		<main>
+		<div class="wrapper">
+			
+			<header>
+		
+		<nav id="navigation">
+			<a class="menu_button" href="#footer_nav" onclick="toggleNav(); return false;">&#9776;</a>
+			<ul id="navigation_list" role="navigation">
+			
+      			<li><a href="about.html">About</a></li>
+        		<li><a href="lifestyle.html">Lifestyle</a></li>
+        		<li><a href="fitness.html">Fitness</a></li>
+        		<li><a href="recipes.html">Recipes</a></li>
+    		</ul>
+			<a href="index.html"><img src="images/logo.svg" alt="Company Name" class="logo"></a>
+
+		</nav>
+	
+			</header>
+
+			 <div>
+						
+		<img src="http://placehold.it/650x450&amp;text=Feature+Image" alt"Feature Image">
+			
+		<h1>Holiday Waistline Slimmer!</h1>
+							
+				<p class="main">Today’s brand new workout is designed to target your entire core, strengthening your abs and lower back for a sculpted, sexy, defined waistline! These exercises are also great for posture & stability! Follow your Holiday Waistline Slimmer and complete all moves a total of 3-4 times through!</p>
+
+<p class="main">Challenge yourself… you’ll thank us later ;)</p>	
+
+		<img src="http://placehold.it/650x450&amp;text=Feature+Image" alt"Feature Image">	
+		
+		<img src="http://placehold.it/650x450&amp;text=Feature+Image" alt"Feature Image">	
+		
+		<h1>Your Ab Video Playlist</h1>
+		<iframe  src="https://www.youtube.com/embed/MoeE9VTxvHY" frameborder="0" allowfullscreen></iframe>
+		<iframe  src="https://www.youtube.com/embed/WlTfvNm5ZSA" frameborder="0" allowfullscreen></iframe>
+		<iframe  src="https://www.youtube.com/embed/kZB-Ml6R28A" frameborder="0" allowfullscreen></iframe>
+		<iframe  src="https://www.youtube.com/embed/w4sEYZzFn2I" frameborder="0" allowfullscreen></iframe>
+
+		</div>
+		<section class="social">
+			<ul>
+			
+			<li>
+				<a href="https://www.facebook.com/ToneItUp">
+				 <i class="fa fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+			<a href="https://twitter.com/ToneItUp">
+				 <i class="fa fa-twitter"></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://instagram.com/toneitup">
+				 <i class="fa fa-instagram "></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://www.pinterest.com/toneitup/tone-it-up/">
+				<i class="fa fa-pinterest "></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://www.youtube.com/ToneItUpcom">
+				<i class="fa fa-youtube"></i>
+			</a>
+			</li>
+			</ul>
+		</section>
+		
+			<footer>
+				<nav id="footer_nav" class="secondary_nav">
+					<ul class="nav">
+						<li><a href="about.html">About</a></li>
+						<li><a href="nutrition.html">Nutrition</a></li>
+						<li><a href="fitness.html">Fitness</a></li>
+						<li><a href="recipes.html">Recipes</a></li>
+					</ul>
+				</nav>
+				
+			<p class="contact_info">
+				 Copyright Tone It Up ©<br>
+				
+			</p>
+		</div>	
+		<script>
+	var originalNavClasses;
+
+function toggleNav() {
+    var elem = document.getElementById('navigation_list');
+    var classes = elem.className;
+    if (originalNavClasses === undefined) {
+        originalNavClasses = classes;
+    }
+    elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
+}
+		</script>	
+			</footer>
+		</main>
+			</script>	
+			</footer>
+		</main>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<!-- Import the flexslider plugin -->
+	<script src="flexslider/jquery.flexslider-min.js"></script>
+	<!-- Trigger the Flexslider -->
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+		$('.flexslider').flexslider({
+			smoothHeight: true,
+			animation: "fade",
+			});
+	  });
+	</script>
+	</body>
+</html>

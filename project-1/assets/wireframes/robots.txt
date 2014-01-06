@@ -1,0 +1,7 @@
+# http://robe0553.site44.com/dsn1543/project-1/index
+
+Sitemap: robe0553.site44.com/dsn1543/project-1/seo/sitemap.xml
+
+User-agent: *
+
+Disallow:/name-of-folder/

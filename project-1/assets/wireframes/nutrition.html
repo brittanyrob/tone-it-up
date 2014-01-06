@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>project-1</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link href="css/general.css" rel="stylesheet">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+	<body>
+	
+	<nav class="navtop">	
+		<ul>
+		<li><a href="about.html">About</a></li>
+		<li><a href="nutrition.html">Nutrition</a></li>
+		<li><a href="fitness.html">Fitness</a></li>
+		<li><a href="recipes.html">Recipes</a></li>
+		</ul>
+		</nav>
+		
+	<h2>Nutrition</h2>
+				
+		<main>
+		<div class="wrapper">
+			
+			<header>
+	
+		<nav id="navigation">
+			<a class="menu_button" href="#footer_nav" onclick="toggleNav(); return false;">&#9776;</a>
+			<ul id="navigation_list" role="navigation">
+			
+      			<li><a href="about.html">About</a></li>
+        		<li><a href="nutrition.html">Nutrition</a></li>
+        		<li><a href="fitness.html">Fitness</a></li>
+        		<li><a href="recipes.html">Recipes</a></li>
+    		</ul>
+			<a href="index.html"><img src="images/logo.svg" alt="Company Name" class="logo"></a>
+		</nav>
+	
+			</header>
+		
+			 <div>
+						
+		<img src="http://placehold.it/650x450&amp;text=Feature+Image" alt"Feature Image">
+		
+		<h1>The Tone It Up Nutrition Plan</h1>
+		
+		<iframe class="youtube-player" type="text/html" width="400" height="285" src="http://www.youtube.com/embed/watch?v=MWrm2JG5HcQ" frameborder="0"> </iframe>
+							
+				<p class="main">Welcome to the Premium Section of Tone It Up!  Upgrade your membership today, and immediately receive your Meal Plan with our Nutrition Method to increase your metabolism, gain energy, glow from within and achieve your Dream Body!</p>	
+				
+				<p class="main">Enjoy over 250 recipes, our exclusive 5 Day Slim Down Program for events and cleansing and get motivated with our Member Only Emails every week!  This includes a lifetime membership at no further cost to Tone It Up where you will receive our Special Editions, Updates, new recipes, weekly fitness tips and emails!!  Read our success stories and you will know right away that the Tone It Up Program is for you.</p>	
+				
+				<img src="http://placehold.it/650x450&amp;text=Feature+Image" alt"Feature Image">
+				
+				<p class="main">We all share these common goals; and that is to feel energized, confident, beautiful and healthy, so let’s do this together! Thousands of women have found success with Tone It Up, and so will you! The Tone It Up Nutrition Plan will transform your physique, boost your metabolism and help you gain control of your body, your health, and most importantly, your life.</p>	
+				
+				<p class="main">We are your trainers, Karena & Katrina, founders of Tone It Up. As Certified Personal Trainers and Lifestyle Coaches, we want to personally welcome you to this incredible community! With our own weight struggles and our personal transformations, we have realized that working out is not enough to achieve a healthy mind and body. We designed this program with you in mind, knowing you are busy, you love to feel satisfied, you want delicious meals, you like to feel in control of your body, and you also love to connect with other women who are going through the same thing as you! Oh, and you also enjoy the occasional cocktail or treat! We are with you!</p>		
+		
+		</div>
+		
+	<div class="signup">
+	
+	<p>Order your plan</p>
+	
+	</div>
+	
+	<p class="main"> One time payment of $150</p>
+	
+		<section class="social">
+			<ul>
+			
+			<li>
+				<a href="https://www.facebook.com/ToneItUp">
+				 <i class="fa fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+			<a href="https://twitter.com/ToneItUp">
+				 <i class="fa fa-twitter"></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://instagram.com/toneitup">
+				 <i class="fa fa-instagram "></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://www.pinterest.com/toneitup/tone-it-up/">
+				<i class="fa fa-pinterest "></i>
+			</a>
+			</li>
+			<li>
+			<a href="http://www.youtube.com/ToneItUpcom">
+				<i class="fa fa-youtube"></i>
+			</a>
+			</li>
+			</ul>
+		</section>
+		
+			<footer>
+				<nav id="footer_nav" class="secondary_nav">
+					<ul class="nav">
+						<li><a href="about.html">About</a></li>
+						<li><a href="nutrition.html">Nutrition</a></li>
+						<li><a href="fitness.html">Fitness</a></li>
+						<li><a href="recipes.html">Recipes</a></li>
+					</ul>
+				</nav>
+				
+			<p class="contact_info">
+				 Copyright Tone It Up ©<br>
+				
+			</p>
+		</div>	
+		<script>
+	var originalNavClasses;
+
+function toggleNav() {
+    var elem = document.getElementById('navigation_list');
+    var classes = elem.className;
+    if (originalNavClasses === undefined) {
+        originalNavClasses = classes;
+    }
+    elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
+}
+		</script>	
+			</footer>
+		</main>
+			</script>	
+			</footer>
+		</main>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<!-- Import the flexslider plugin -->
+	<script src="flexslider/jquery.flexslider-min.js"></script>
+	<!-- Trigger the Flexslider -->
+	<script type="text/javascript" charset="utf-8">
+	  $(window).load(function() {
+		$('.flexslider').flexslider({
+			smoothHeight: true,
+			animation: "fade",
+			});
+	  });
+	</script>
+	</body>
+</html>
